@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Home.ProfileActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <androidx.core.widget.NestedScrollView
+               android:overScrollMode="never"
+               android:id="@+id/nestedScrollView"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center"
+                   android:background="@color/black">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       android:gravity="center"
+                       android:overScrollMode="never"
+                       android:background="@drawable/shape_border_rounded_liner">
+
+                       <FrameLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:id="@+id/iv_image"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:adjustViewBounds="true"
+                               android:src="@drawable/item_image" />
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:background="@android:color/transparent"/>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="55dp"
+                               android:layout_marginEnd="16dp"
+                               android:gravity="center_vertical">
+
+                               <LinearLayout
+                                   android:layout_width="match_parent"
+                                   android:layout_height="1dp"
+                                   android:layout_weight="1" />
+
+                               <ImageView
+                                   android:id="@+id/iv_more"
+                                   android:layout_width="40dp"
+                                   android:layout_height="40dp"
+                                   android:layout_marginStart="5dp"
+                                   android:src="@drawable/ic_more" />
+                           </LinearLayout>
+
+                       </FrameLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginTop="10dp"
+                           android:gravity="left"
+                           android:layout_marginEnd="10dp"
+                           android:layout_marginStart="10dp">
+
+                           <com.google.android.material.imageview.ShapeableImageView
+                               android:id="@+id/iv_user"
+                               android:layout_width="40dp"
+                               android:layout_height="40dp"
+                               android:scaleType="centerCrop"
+                               android:src="@drawable/item_image"
+                               app:shapeAppearanceOverlay="@style/circle" />
+
+                           <LinearLayout
+                               android:layout_weight="1"
+                               android:layout_marginStart="15dp"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+                               <TextView
+                                   android:id="@+id/tv_userName"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Mona Eendra"
+                                   android:textColor="#000000"
+                                   android:textStyle="bold"
+                                   android:textSize="18sp" />
+
+                               <TextView
+                                   android:id="@+id/tv_like"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Likes: 26mln"
+                                   android:textSize="14sp"
+                                   android:textColor="#606060"/>
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="80dp"
+                               android:layout_height="35dp"
+                               android:background="@drawable/border_round_filter_gray"
+                               android:gravity="center">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginStart="2dp"
+                                   android:text="Follow"
+                                   android:textSize="20sp" />
+                           </LinearLayout>
+                       </LinearLayout>
+
+                       <TextView
+                           android:layout_marginTop="5dp"
+                           android:layout_marginBottom="5dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginStart="20dp"
+                           android:layout_marginEnd="20dp"
+                           android:gravity="center"
+                           android:text="A script"
+                           android:textColor="#000000"
+                           android:textStyle="bold"
+                           android:textSize="18sp"/>
+
+                       <TextView
+                           android:id="@+id/tv_bio"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Choose from a curated selection of blue wallpapers for your mobile and desktop screens."
+                           android:layout_marginStart="20dp"
+                           android:layout_marginEnd="20dp"
+                           android:textSize="14sp"
+                           android:textColor="#606060"
+                           android:gravity="center"/>
+
+                       <LinearLayout
+                           android:layout_margin="20dp"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:layout_gravity="left"
+                               android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:src="@drawable/ic_chat_svgrepo_com"/>
+
+                           <LinearLayout
+                               android:layout_weight="1"
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"/>
+
+                           <LinearLayout
+                               android:id="@+id/ll_send"
+                               android:layout_width="100dp"
+                               android:layout_height="40dp"
+                               android:layout_marginEnd="10dp"
+                               android:background="@drawable/border_round_filter_gray"
+                               android:gravity="center">
+
+                               <ImageView
+                                   android:layout_width="25dp"
+                                   android:layout_height="25dp"
+                                   android:layout_marginEnd="2dp"
+                                   android:src="@drawable/ic_email_outbox"
+                                   tools:ignore="ContentDescription" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginStart="2dp"
+                                   android:text="Send"
+                                   android:textSize="20sp" />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:id="@+id/ll_save"
+                               android:layout_width="100dp"
+                               android:layout_height="40dp"
+                               android:background="@drawable/border_round_filter_rad"
+                               android:gravity="center">
+
+                               <ImageView
+                                   android:layout_width="25dp"
+                                   android:layout_height="25dp"
+                                   android:layout_marginEnd="2dp"
+                                   android:src="@drawable/ic_tack_save"
+                                   tools:ignore="ContentDescription" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginStart="2dp"
+                                   android:text="Save"
+                                   android:textSize="20sp" />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_weight="1"
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"/>
+
+                           <ImageView
+                               android:id="@+id/iv_share"
+                               android:layout_gravity="right"
+                               android:layout_width="25dp"
+                               android:layout_height="25dp"
+                               android:src="@drawable/ic_share"/>
+                       </LinearLayout>
+
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_marginTop="5dp"
+                       android:background="@drawable/shape_border_rounded_recyc"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical"
+                       android:gravity="center">
+
+                       <TextView
+                           android:layout_marginTop="15dp"
+                           android:layout_marginBottom="15dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginStart="20dp"
+                           android:layout_marginEnd="20dp"
+                           android:gravity="center"
+                           android:text="More like this"
+                           android:textColor="#000000"
+                           android:textStyle="bold"
+                           android:textSize="18sp"/>
+
+                       <androidx.recyclerview.widget.RecyclerView
+                           android:id="@+id/recyclerView"
+                           android:overScrollMode="never"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"/>
+                   </LinearLayout>
+
+               </LinearLayout>
+           </androidx.core.widget.NestedScrollView>
+
+           <ImageView
+               android:id="@+id/iv_close"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_key_left"/>
+       </FrameLayout>
+   </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
