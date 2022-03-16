@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable-v24/border_round_filter.xml" value="0.1574074074074074" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable-v24/border_round_filter_black.xml" value="0.1962962962962963" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable-v24/border_round_filter_white.xml" value="0.1962962962962963" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.2869791666666667" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable-v24/shape_border_rounded.xml" value="0.1962962962962963" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/border_round_filter_gray.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/border_round_filter_rad.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/border_rounded_shapable.xml" value="0.1962962962962963" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/bottom_rounded.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_baseline_center_focus_weak_24.xml" value="0.28615384615384615" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_camera.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_chat_svgrepo_com.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_comment.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_eft.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_email_outbox.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_filter.xml" value="0.28615384615384615" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_heart_red.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_home.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_key_left.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_key_left_svgrepo_com.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_more.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_more_black.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_person.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_search.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_share.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/ic_tack_save.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/liner_rounded.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/nav_items_color.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/shape_border_rounded_liner.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/drawable/shape_border_rounded_recyc.xml" value="0.290625" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/activity_loading.xml" value="0.22735507246376813" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/activity_register.xml" value="0.22735507246376813" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/fragment_account.xml" value="0.264" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/fragment_blank.xml" value="0.22327898550724637" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/fragment_chat.xml" value="0.13171225937183384" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/fragment_message.xml" value="0.2246376811594203" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/fragment_search.xml" value="0.264" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/fragment_unwanted.xml" value="0.2246376811594203" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/fragment_updates.xml" value="0.2246376811594203" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/item_filter_view.xml" value="0.4" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/item_home_picture.xml" value="0.1" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/item_home_video.xml" value="0.264" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/item_save_view.xml" value="0.1" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/item_updates_list.xml" value="0.8" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/layout_toolbar.xml" value="0.1" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/layout/shape_border_rounded.xml" value="0.13171225937183384" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/menu/popular_menu.xml" value="0.1" />
+        <entry key="..\:/Android Loyihalar/Pinterest/app/src/main/res/xml/pahts.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
