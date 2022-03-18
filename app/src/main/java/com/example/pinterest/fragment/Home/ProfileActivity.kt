@@ -5,7 +5,9 @@ import android.content.ContentValues
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Canvas
+import android.graphics.Color
 import android.graphics.drawable.BitmapDrawable
+import android.graphics.drawable.ColorDrawable
 import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -91,7 +93,7 @@ class ProfileActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     fun initViews(imageModel: ImageModel){
-        Glide.with(this@ProfileActivity).load(imageModel.urls.regular).into(iv_image)
+        Glide.with(iv_image.context).load(imageModel.urls.small).placeholder(ColorDrawable(Color.parseColor(imageModel.color))).into(iv_image)
         Glide.with(this).load(imageModel.user.profile_image.medium).into(iv_user)
         tv_userName.text = imageModel.user.first_name + " " + imageModel.user.last_name
 
