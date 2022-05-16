@@ -82,7 +82,6 @@ class HomeFragment : Fragment() {
                 list.addAll(response.body() as ArrayList<ImageModel>)
                 adapter.notifyDataSetChanged()
 
-
                 isLoading = false
                 dialog.dismiss()
                 if (list.size > 0){
