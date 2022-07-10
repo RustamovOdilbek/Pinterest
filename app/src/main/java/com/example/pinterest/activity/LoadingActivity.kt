@@ -12,7 +12,9 @@ class LoadingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_loading)
 
-        var handler =  Handler()
+//        throw RuntimeException("Test Crash")
+
+        val handler =  Handler()
         handler.postDelayed({
             if (SharePref(this).isSaved == true){
                 Intent(this, MainActivity::class.java).also {
