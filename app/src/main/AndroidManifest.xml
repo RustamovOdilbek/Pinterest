@@ -39,7 +39,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
-                    android:host="https://androidinstagram.page.link"
+                    android:host="https://pinterest77.page.link"
                     android:scheme="https"/>
             </intent-filter>
         </activity>
