@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import com.example.pinterest.R
 import com.example.pinterest.holder.SharePref
+import com.example.pinterest.utils.DeepLink
 
 class LoadingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,18 +15,14 @@ class LoadingActivity : AppCompatActivity() {
 
 //        throw RuntimeException("Test Crash")
 
+        DeepLink.createLongLink("123456789")
+        //DeepLink.createShortLink("654321")
+
         val handler =  Handler()
         handler.postDelayed({
-            if (SharePref(this).isSaved == true){
                 Intent(this, MainActivity::class.java).also {
                     startActivity(it)
                 }
-            }else {
-                Intent(this, RegisterActivity::class.java).also {
-                    startActivity(it)
-                    SharePref(this).isSaved = true
-                }
-            }
         }, 10000)
     }
 }
