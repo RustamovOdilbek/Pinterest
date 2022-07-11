@@ -15,8 +15,8 @@ class LoadingActivity : AppCompatActivity() {
 
 //        throw RuntimeException("Test Crash")
 
-        DeepLink.createLongLink("123456789")
-        //DeepLink.createShortLink("654321")
+        //DeepLink.createLongLink("123456789")
+        DeepLink.createShortLink("654321")
 
         val handler =  Handler()
         handler.postDelayed({
