@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969545233194",
+    "project_id": "pinterst-e6c9b",
+    "storage_bucket": "pinterst-e6c9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969545233194:android:0bc5a2906d89cce1e32453",
+        "android_client_info": {
+          "package_name": "com.example.pinterest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969545233194-5ic7cpfhek1eajrqmnfempn0n4mdhrne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3aDbS1QvjTZx34sF4xjbZxPhVDRyUWqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969545233194-5ic7cpfhek1eajrqmnfempn0n4mdhrne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
